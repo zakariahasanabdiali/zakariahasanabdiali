@@ -1,64 +1,61 @@
-# 👋 Hi, I'm Zakaria Hassan Abdi
+# 👨‍💻 Zakaria Hasan Abdi – Software Developer | AI Enthusiast 🌍🇸🇴
 
-🎓 I'm a Computer Science & Information Technology student passionate about building real-world solutions with code.  
-🌍 Based in Somalia | 🌐 Open to Remote Paid Internships  
-💡 Interests: AI, Web Development, Open Source, and Data Science
-
----
-
-## 💼 About Me
-
-- 🎯 Currently learning and building projects using:
-  - `Python`, `Django`, `React`, `FastAPI`
-  - AI tools: `Hugging Face`, `TensorFlow`, `OpenAI API`, `Speech Recognition`, `TTS`, `LLMs`
-- 👨‍💻 Focused on projects that support Somali language and community (ASR, TTS, Q&A Chatbots).
-- 💬 Languages: Somali 🇸🇴, English 🌍
-- 🤝 Eager to collaborate on open source and research-focused AI projects.
+**Welcome to my GitHub!**  
+I'm Zakaria Hasan Abdi, a passionate and creative software developer from Somalia 🇸🇴. I recently graduated from university 🎓 and specialize in Artificial Intelligence 🤖, Web Development 🌐, and Open Source Projects 🚀.
 
 ---
 
-## 🔧 Tech Stack
+## 🧠 Skills & Technologies
 
-| Area | Tools |
-|------|-------|
-| 🧠 AI & ML | Hugging Face, Transformers, TensorFlow, PyTorch |
-| 🌐 Web Dev | HTML, CSS, JavaScript, React, Django, FastAPI |
-| 🧪 Tools | Git, GitHub, VS Code, Linux, Google Colab |
-| 🗣 NLP | Wav2Vec2.0, mT5, Falcon 7B, Coqui TTS |
-| 🗄 Deployment | DigitalOcean, Render, Azure |
+- 🌐 Web: HTML, CSS, JavaScript, React
+- 🐍 Python: FastAPI, Flask, Django
+- 🤖 AI/ML: Hugging Face Transformers, PyTorch, TensorFlow
+- 🧪 Data: Pandas, NumPy, Matplotlib
+- 🎧 Speech: Wav2Vec2, VITS, XTTS, Coqui TTS
+- 🌍 Tools: Git, GitHub, VS Code, Jupyter, Google Colab
 
 ---
 
 ## 📂 Featured Projects
 
-| Project | Description |
-|--------|-------------|
-| **Somali ASR API** | FastAPI-based speech-to-text API using fine-tuned Wav2Vec2 model |
-| **Somali TTS System** | Coqui TTS and Microsoft SpeechT5 trained for Somali voice synthesis |
-| **Somali Q&A Chatbot** | mT5/Falcon-based chatbot answering agriculture questions in Somali |
-| **HidoStore** | E-commerce website promoting Somali culture and traditional items |
+### 🗣️ Somali Speech Recognition System
+- Fine-tuned [Wav2Vec2](https://huggingface.co/facebook/wav2vec2-large-xlsr-53) for Somali.
+- Dataset: Custom Somali agricultural speech dataset.
+- Use: ASR API built with FastAPI and deployed for real-time use.
 
-🔗 Visit my [GitHub Projects](https://github.com/zakariahasanabdiali?tab=repositories) for more.
+### 🧠 Somali Chatbot with Falcon 7B
+- Fine-tuned Falcon 7B on Somali Q&A dataset.
+- Built an agriculture-focused intelligent assistant.
 
----
-
-## 📬 Contact Me
-
-- 📧 Email: zakihasanabdi443@gmail.com
-- 🌐 LinkedIn: [Zakaria Hassan Abdi](https://www.linkedin.com/in/zakaria-hassan-abdi-ali-0b6b96238/)
-- 🐦 Twitter: [ZakariaHasan04](https://x.com/ZakariaHasan04)
+### 🎤 Somali Text-to-Speech (TTS)
+- Fine-tuned XTTS v2 and Coqui FastPitch+HiFi-GAN.
+- Natural, smooth Somali voice generation.
 
 ---
 
 ## 🎯 Goals
 
-- 🌱 Contribute to open source AI projects in low-resource languages
-- 💼 Secure a **remote, paid internship** in AI, Web Dev, or Open Source
-- 🛠️ Build impactful tools for the Somali-speaking community
+- ✅ Graduate 🎓 – *I’ve completed my degree in Computer and Information Sciences.*
+- 🔍 Seeking AI/IT **Remote Internships** (paid or unpaid).
+- 🌍 Contributing to Somali AI & tech ecosystem.
 
 ---
 
-### 🙏 Thanks for visiting my profile!
+## 📫 Contact Me
 
-> “Code with purpose. Build with community.”
+- 📧 Email: zakihasanabdi443@gmail.com  
+- 🌐 LinkedIn: [Zakaria Hasan Abdi Ali](https://www.linkedin.com/in/zakaria-hassan-abdi-ali-0b6b96238/)  
+- 🐦 Twitter: [ZakariaHasan04](https://x.com/ZakariaHasan04)  
+- 🏠 GitHub: [@zakariahasanabdiali](https://github.com/zakariahasanabdiali)
+
+---
+
+## ❤️ Let’s Collaborate!
+
+Open to internship, volunteer, or freelance opportunities in:
+- AI research 🧠
+- Speech technology 🎙️
+- Software development 💻
+
+Let’s build the future of Somali Tech together 🇸🇴🚀
 
