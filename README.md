@@ -11,8 +11,8 @@ I'm Zakaria Hasan Abdi, a passionate and creative software developer from Somali
 - 🐍 Python: FastAPI, Flask, Django
 - 🤖 AI/ML: Hugging Face Transformers, PyTorch, TensorFlow
 - 🧪 Data: Pandas, NumPy, Matplotlib
-- 🎧 Speech: Wav2Vec2, VITS, XTTS, Coqui TTS
-- 🌍 Tools: Git, GitHub, VS Code, Jupyter, Google Colab
+- 🎧 Speech: Wav2Vec2
+- 🌍 Tools: Git, GitHub, VS Code,  Google Colab
 
 ---
 
