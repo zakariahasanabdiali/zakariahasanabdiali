@@ -1,7 +1,7 @@
-# 👨‍💻 Zakaria Hasan Abdi – Software Developer | AI Enthusiast 🌍🇸🇴
+# 👨‍💻 Zakarie Hassan Abdi – Software Developer | AI Enthusiast 🌍🇸🇴
 
 **Welcome to my GitHub!**  
-I'm Zakaria Hasan Abdi, a passionate and creative software developer from Somalia 🇸🇴. I recently graduated from university 🎓 and specialize in Artificial Intelligence 🤖, Web Development 🌐, and Open Source Projects 🚀.
+I'm Zakarie Hassan Abdi, a passionate and creative software developer from Somalia 🇸🇴. I recently graduated from university 🎓 and specialize in Artificial Intelligence 🤖, Web Development 🌐, and Open Source Projects 🚀.
 
 ---
 
@@ -23,8 +23,7 @@ I'm Zakaria Hasan Abdi, a passionate and creative software developer from Somali
 - Dataset: Custom Somali agricultural speech dataset.
 - Use: ASR API built with FastAPI and deployed for real-time use.
 
-### 🧠 Somali Chatbot with Falcon 7B
-- Fine-tuned Falcon 7B on Somali Q&A dataset.
+### 🧠 Somali Chatbot 
 - Built an agriculture-focused intelligent assistant.
 
 ### 🎤 Somali Text-to-Speech (TTS)
