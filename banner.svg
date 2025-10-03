@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900" height="200" viewBox="0 0 900 200" preserveAspectRatio="xMidYMid slice">
+
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1A4D2E"/>
+      <stop offset="100%" stop-color="#4F6F52"/>
+    </linearGradient>
+
+    <!-- mask used for typing effect -->
+    <mask id="typeMask">
+      <rect x="0" y="0" width="0" height="200" fill="#fff">
+        <!-- animate width to create typing reveal -->
+        <animate attributeName="width"
+                 from="0" to="900"
+                 dur="3.5s"
+                 begin="1s"
+                 fill="freeze" />
+      </rect>
+    </mask>
+
+    <!-- cursor blink -->
+    <g id="cursor">
+      <rect x="0" y="0" width="4" height="28" fill="#fff">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- subtle noise/shine -->
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+      <stop offset="50%" stop-color="rgba(255,255,255,0.06)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" rx="14" ry="14"/>
+
+  <!-- soft shine -->
+  <rect x="-300" y="-50" width="600" height="300" fill="url(#shine)" opacity="0.12">
+    <animateTransform attributeName="transform" type="translate" from="-300,-50" to="900,-50" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- left decorative circles (like icons) -->
+  <g transform="translate(520,30)" opacity="0.12">
+    <circle cx="0" cy="0" r="28" fill="#fff"/>
+    <circle cx="56" cy="36" r="22" fill="#fff"/>
+    <circle cx="-44" cy="44" r="18" fill="#fff"/>
+  </g>
+
+  <!-- Main text group (masked for typing) -->
+  <g mask="url(#typeMask)">
+    <!-- Name -->
+    <text x="40" y="70" font-family="Fira Code, ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="28" font-weight="700" fill="#FFFFFF" letter-spacing="0.4">
+      👨‍💻 Zakarie Hassan Abdi
+    </text>
+
+    <!-- Tagline (typed line) -->
+    <text id="tagline" x="40" y="110" font-family="Fira Code, ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="18" font-weight="600" fill="#E8F6F0" letter-spacing="0.6">
+      Software Developer | AI Enthusiast 🌍🤖💻
+    </text>
+
+    <!-- small cursor positioned after tagline (will move by animation) -->
+    <rect id="cursorRect" x="420" y="86" width="6" height="22" rx="1" ry="1" fill="#E8F6F0">
+      <!-- Move cursor from left to right as typing reveals -->
+      <animate attributeName="x"
+               from="40" to="520"
+               dur="3.5s"
+               begin="1s"
+               fill="freeze" />
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Location / footer line (fade-in after typing) -->
+    <text id="location" x="40" y="148" font-family="Fira Code, ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="15" fill="#DFF6EB" opacity="0.0">
+      Somalia 🇸🇴  •  Building the future of Somali Tech 🚀
+      <animate attributeName="opacity" from="0" to="1" begin="4.6s" dur="0.8s" fill="freeze"/>
+    </text>
+  </g>
+
+  <!-- subtle border -->
+  <rect x="1" y="1" width="898" height="198" rx="14" ry="14" fill="none" stroke="#00000022" />
+
+</svg>
